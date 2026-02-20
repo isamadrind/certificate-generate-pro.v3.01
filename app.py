@@ -1,11 +1,11 @@
 """
-╔══════════════════════════════════════════════════════════════════╗
-║   QR Certificate System  v6.0                                   ║
-║   Developed by: Abdul Samad | SBBU Nawabshah                    ║
-╠══════════════════════════════════════════════════════════════════╣
-║   pip install streamlit pillow qrcode[pil] reportlab openpyxl pandas
-║   streamlit run app.py                                          ║
-╚══════════════════════════════════════════════════════════════════╝
+╔══════════════════════════════════════════════════════════════════════╗
+║   QR Certificate System  v6.0                                        ║
+║   Developed by: Abdul Samad | SBBU Nawabshah                         ║
+╠══════════════════════════════════════════════════════════════════════╣
+║   pip install streamlit pillow qrcode[pil] reportlab openpyxl pandas ║
+║   streamlit run app.py                                               ║
+╚══════════════════════════════════════════════════════════════════════╝
 v6.0:
   ✅ Short alphanumeric Reg No  (e.g. P-0012, TC-0005)
   ✅ Redesigned invitation card — theme-focused, beautiful typography
