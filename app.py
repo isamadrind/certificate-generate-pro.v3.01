@@ -1,11 +1,11 @@
 """
-╔══════════════════════════════════════════════════════════════════╗
-║   QR Certificate System  v5.0                                   ║
-║   Developed by: Abdul Samad | SBBU Nawabshah                    ║
-╠══════════════════════════════════════════════════════════════════╣
+╔══════════════════════════════════════════════════════════════════════╗
+║   QR Certificate System  v3.0                                        ║
+║   Developed by: Abdul Samad | SBBU Nawabshah                         ║
+╠══════════════════════════════════════════════════════════════════════╣
 ║   pip install streamlit pillow qrcode[pil] reportlab openpyxl pandas ║
-║   streamlit run app.py                                          ║
-╚══════════════════════════════════════════════════════════════════╝
+║   streamlit run app.py                                               ║
+╚══════════════════════════════════════════════════════════════════════╝
 v5.0 Changes:
   ✅ bcrypt-free secure hashing (PBKDF2-HMAC-SHA256) — no plaintext password
   ✅ Password stored in auth.json — never in code
@@ -186,7 +186,7 @@ def auto_backup():
 #  PAGE CONFIG
 # ══════════════════════════════════════════════════════════════════
 st.set_page_config(
-    page_title="QR Certificate System",
+    page_title="QR Certificate Generate Pro V3.0",
     page_icon="🎓",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -785,14 +785,14 @@ if page == "form":
                 batch = ""
 
         st.markdown("---")
-        if st.button("✅  Submit — Jama Karein", use_container_width=True):
+        if st.button("✅  Submit Now", use_container_width=True):
             n=name.strip(); r=rollno.strip(); d=dept.strip(); b=batch.strip() if batch else ""
             missing=[]
             if not n: missing.append("Full Name")
             if is_stud and not r: missing.append("Roll No")
             if is_stud and not b: missing.append("Batch")
             if missing:
-                st.error("❌ Zaroori fields: **" + "  |  ".join(missing) + "**")
+                st.error("❌ Required Fields: **" + "  |  ".join(missing) + "**")
             else:
                 now    = datetime.now()
                 ref_no = generate_ref_no(category)
@@ -823,7 +823,7 @@ if page == "form":
 # ══════════════════════════════════════════════════════════════════
 #  ADMIN PAGE
 # ══════════════════════════════════════════════════════════════════
-st.markdown("# 🎓 QR Certificate System")
+st.markdown("# 🎓 QR Certificate Generator Pro V3.0")
 st.markdown('<p style="text-align:center;color:#7ecefd;">Abdul Samad | SBBU Nawabshah</p>',
             unsafe_allow_html=True)
 st.markdown("---")
@@ -850,7 +850,7 @@ if not st.session_state.admin_auth:
                 st.session_state.admin_auth = True
                 st.rerun()
             else:
-                st.error("❌ Galat password!")
+                st.error("❌ Wrong password!")
         st.markdown('</div>', unsafe_allow_html=True)
     st.stop()
 
@@ -1120,7 +1120,7 @@ with tab3:
             st.download_button("⬇️ All Cards ZIP",bz.getvalue(),
                 file_name="All_Invitation_Cards.zip",mime="application/zip",use_container_width=True)
     else:
-        st.info("Koi registration nahi abhi.")
+        st.info("No Registration Yet.")
 
 # ══════════════════════════════════════════════
 #  TAB 4 — Certificate Preview
@@ -1157,7 +1157,7 @@ with tab4:
     regs_p=load_registrations()
     if st.session_state.template_bytes and regs_p:
         st.markdown("---")
-        st.markdown("### 👁️ Sabke Certificates Preview")
+        st.markdown("### 👁️ Preview All Certificates")
         names_all=[r["name"] for r in regs_p]
         sn=st.slider("Kitne?",1,min(len(names_all),30),min(6,len(names_all)))
         for i in range(0,sn,3):
@@ -1323,5 +1323,5 @@ git push
 
 st.markdown("---")
 st.markdown('<p style="text-align:center;color:#7ecefd44;font-size:.85rem;">'
-            '© QR Certificate System v5.0 | Abdul Samad | SBBU Nawabshah</p>',
+            '© QR Certificate Generator Pro V3.0 | Abdul Samad Rind | SBBU Nawabshah</p>',
             unsafe_allow_html=True)
