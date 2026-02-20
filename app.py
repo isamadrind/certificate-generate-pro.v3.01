@@ -1,6 +1,6 @@
 """
 ╔══════════════════════════════════════════════════════════════════════╗
-║   QR Certificate System  v3.0                                        ║
+║   QR Certificate System  v3.01                                        ║
 ║   Developed by: Abdul Samad | SBBU Nawabshah                         ║
 ╠══════════════════════════════════════════════════════════════════════╣
 ║   pip install streamlit pillow qrcode[pil] reportlab openpyxl pandas ║
@@ -186,7 +186,7 @@ def auto_backup():
 #  PAGE CONFIG
 # ══════════════════════════════════════════════════════════════════
 st.set_page_config(
-    page_title="QR Certificate Generate Pro V3.0",
+    page_title="QR Certificate Generate Pro V3.01",
     page_icon="🎓",
     layout="wide",
     initial_sidebar_state="expanded"
