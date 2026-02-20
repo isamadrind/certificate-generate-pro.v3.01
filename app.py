@@ -908,7 +908,7 @@ if page == "form":
 
         c1,c2 = st.columns(2)
         with c1:
-            name = st.text_input("👤 Full Name ✱", placeholder="Muhammad Ali Khan")
+            name = st.text_input("👤 Full Name ✱", placeholder="Abdul Samad")
             dept = st.text_input("🏫 Department / Organization",
                                   placeholder="Computer Science / XYZ Company")
         with c2:
@@ -1396,7 +1396,7 @@ with tab8:
   <hr class="dev-hr">
 
   <p style="color:#c5d8f0;font-size:1rem;margin:4px 0;">🎓 <b>BS Computer Science</b></p>
-  <p style="color:#c5d8f0;font-size:1rem;margin:4px 0;">Shaheed Benazir Bhutto University (SBBU), Nawabshah, Sindh, Pakistan</p>
+  <p style="color:#c5d8f0;font-size:1rem;margin:4px 0;">Shaheed Benazir Bhutto University (SBBU SBA), Nawabshah, Sindh, Pakistan</p>
 
   <hr class="dev-hr">
 
@@ -1461,7 +1461,7 @@ with tab8:
     with gc2:
         st.markdown('<div class="card" style="text-align:center;"><div style="font-size:2rem;">🌐</div><p style="color:#ffd159;font-weight:700;">Portfolio</p><p style="color:#7ecefd;">isamadrind.kesug.com</p></div>', unsafe_allow_html=True)
     with gc3:
-        st.markdown('<div class="card" style="text-align:center;"><div style="font-size:2rem;">📍</div><p style="color:#ffd159;font-weight:700;">Location</p><p style="color:#7ecefd;">Kazi Ahmed, Nawabshah, Sindh, Pakistan</p></div>', unsafe_allow_html=True)
+        st.markdown('<div class="card" style="text-align:center;"><div style="font-size:2rem;">📍</div><p style="color:#ffd159;font-weight:700;">Location</p><p style="color:#7ecefd;">Nawabshah, Sindh, Pakistan</p></div>', unsafe_allow_html=True)
 
 # ─────────────────────────────────────────────
 #  TAB 9 — README
