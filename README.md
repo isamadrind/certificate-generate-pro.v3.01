@@ -138,12 +138,12 @@ Speaker        →  S-0002
 
 | | |
 |-|-|
-| 📷 Instagram | [@YOUR_HANDLE](https://instagram.com/YOUR_HANDLE) |
-| 📘 Facebook | [YOUR_PROFILE](https://facebook.com/YOUR_PROFILE) |
-| 💼 LinkedIn | [YOUR_PROFILE](https://linkedin.com/in/YOUR_PROFILE) |
-| 🎵 TikTok | [@YOUR_HANDLE](https://tiktok.com/@YOUR_HANDLE) |
-| 📞 Phone | +92-XXX-XXXXXXX |
-| 📧 Email | your.email@example.com |
+| 📷 Instagram | [@YOUR_HANDLE]((https://www.instagram.com/isamadrind?igsh=MThwaXU3N2QwdGplcg==)) |
+| 📘 Facebook | [YOUR_PROFILE]((https://www.facebook.com/share/14WPHWppWmW/)) |
+| 💼 LinkedIn | [YOUR_PROFILE](h[ttps://linkedin.com/in/YOUR_PROFILE](https://www.linkedin.com/in/abdul-samad-rind-842724338?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)) |
+| 🎵 TikTok | [@YOUR_HANDLE]([https://tiktok.com/@YOUR_HANDLE](https://www.tiktok.com/@isamadrind?_r=1&_d=egb173cb10cj51&sec_uid=MS4wLjABAAAAoJC3hq8ImY58uuJBl9FWD0PaUxAekjZ_ggWyebwlT8H_7e5L4MqJyUSgI3604_6P&share_author_id=7388965045197734917&sharer_language=en&source=h5_m&u_code=ef3l4d0jk9mgfm&timestamp=1771942373&user_id=7388965045197734917&sec_user_id=MS4wLjABAAAAoJC3hq8ImY58uuJBl9FWD0PaUxAekjZ_ggWyebwlT8H_7e5L4MqJyUSgI3604_6P&item_author_type=1&utm_source=copy&utm_campaign=client_share&utm_medium=android&share_iid=7605823737446811409&share_link_id=a2bdbc5c-10f1-4347-b217-5c8fa96f028e&share_app_id=1233&ugbiz_name=ACCOUNT&ug_btm=b8727%2Cb7360&social_share_type=5&enable_checksum=1)) |
+| 📞 Phone | +92-313-0328282 |
+| 📧 Email | sr5327485@gmail.com |
 
 **Skills:** Python • Streamlit • Machine Learning • Computer Vision • Deep Learning • Data Analysis • FastAPI • Web Dev • AI & NLP • Pandas • NumPy • Git • UI/UX • Pillow • OpenCV • SQL
 
